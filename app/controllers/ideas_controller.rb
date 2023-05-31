@@ -1,4 +1,4 @@
-require 'debug'
+
 
 class IdeasController < ApplicationController
   before_action :set_idea, only: %i[ show edit update destroy ]
