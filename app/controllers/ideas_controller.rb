@@ -5,7 +5,6 @@ class IdeasController < ApplicationController
 
   # GET /ideas or /ideas.json
   def index
-    binding.break
     @ideas = Idea.all
   end
 
